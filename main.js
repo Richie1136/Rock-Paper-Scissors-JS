@@ -1,6 +1,15 @@
 const computerChoice = document.getElementById('computer-choice')
-const userChoice = document.getElementById('user-choice')
+const userChoiceDisplay = document.getElementById('user-choice')
 const result = document.getElementById('result')
-const rock = document.getElementById('rock')
-const paper = document.getElementById('paper')
-const scissors = document.getElementById('scissors')
+const possibleChoices = document.querySelectorAll('button')
+
+let userChoice;
+
+const userChoices = (event) => {
+  userChoice = event.target.id
+}
+
+
+possibleChoices.forEach(choice => {
+  choice.addEventListener('click', (userChoices))
+})
