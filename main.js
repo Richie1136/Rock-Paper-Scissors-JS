@@ -7,6 +7,7 @@ let userChoice;
 
 const userChoices = (event) => {
   userChoice = event.target.id
+  userChoiceDisplay.innerHTML = userChoice
 }
 
 
