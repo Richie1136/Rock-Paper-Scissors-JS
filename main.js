@@ -20,6 +20,8 @@ const generateComputerChoice = () => {
     computerPick = 'paper'
   }
   console.log(randomNumber)
+  let result = computerPick[0].toUpperCase() + computerPick.slice(1).toLowerCase()
+  computerChoice.innerHTML = result
 }
 
 
