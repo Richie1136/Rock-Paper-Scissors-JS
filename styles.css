@@ -1,0 +1,46 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid red;
+  margin-top: 500px;
+}
+
+#computer-choice {
+  margin-right: 50px;
+}
+
+#user-choice {
+  margin-right: 20px;
+}
+
+#result {
+  margin-right: 80px;
+}
+
+.buttons {
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: red;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.buttons > #rock {
+  margin-left: 1300px;
+  margin-right: 20px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.buttons > #scissors {
+  margin-left: 20px;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+body {
+  background: linear-gradient(130deg, black 40%, lime 50%);
+}

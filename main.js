@@ -20,7 +20,6 @@ const generateComputerChoice = () => {
   if (randomNumber === 3) {
     computerPick = 'paper'
   }
-  console.log(randomNumber)
   let result = computerPick[0].toUpperCase() + computerPick.slice(1).toLowerCase()
   computerChoice.innerHTML = result
 }
@@ -47,13 +46,14 @@ const getResult = () => {
   if (computerPick === 'scissors' && userChoice === 'paper') {
     results = "Computer Wins"
   }
+
   gameResult.innerHTML = results
+
 }
 
 const userChoices = (event) => {
 
   userChoice = event.target.id
-  console.log(userChoice)
   let result = userChoice[0].toUpperCase() + userChoice.slice(1).toLowerCase()
   userChoiceDisplay.innerHTML = result
   generateComputerChoice()
